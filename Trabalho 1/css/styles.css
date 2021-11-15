@@ -1,0 +1,131 @@
+html, body{
+	margin: 0;
+	font-family: "Arial", sans-serif;
+	font-size: 14pt;
+}
+
+body {
+	background-color: #CEFFC2;
+}
+
+/* Navegação */
+
+.header {
+	background-color: #CEFFC2;
+	box-shadow: 0 4px 2px -2px gray;
+    text-align: center;
+}
+
+.header_toolbar a:link {
+    color: #fa8282;
+    text-decoration: none;
+}
+
+.header_toolbar a:hover {
+    color: #FF2969;
+    text-decoration: none;
+}
+
+
+.nav_opcao_texto {
+    margin: 0px 40px 0px 40px;
+    display: inline-block;
+}
+
+.nav_opcao_imagem {
+    margin: 0px 40px 0px 40px;
+    display: inline-block;
+}
+
+#logo_insta {
+    width: 70px;
+    height: 70px;
+}
+
+#logo {
+    margin: 0px 10px 0px 10px;
+	width: 400px;
+	height: 170px;	
+}
+
+/* Conteúdo da página (header de posts) */
+
+.header_posts {
+	height: 80px;
+	margin: 5px 20px 0px 20px;
+	background-color: #FFD1D3;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.header_posts input {
+    margin-top: 22px;
+    width: 300px;
+    height: 30px;
+    font-size: 14pt;
+    overflow: hidden;
+}
+
+.header_posts button {
+    margin-top: 20px;
+    height: 30px;
+    text-align: center;
+    background-color: #FFE8F5;
+}
+
+/* Conteúdo da página (lista de posts) */
+
+.posts {
+	height: 550px;
+	margin: 0px 20px 5px 20px;
+	background-color: #FFD1D3;
+    border-radius: 0px 0px 10px 10px;
+    overflow: auto;
+    text-align: center;
+}
+
+.lista_posts {
+    list-style-type: none;
+} 
+
+.lista_posts li {
+    margin: 50px;
+    width: 25%;
+    float: left;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.imagem, .texto{
+    width: 100%;
+    display: block;
+}
+
+.imagem {
+    height: 80%;
+}
+
+.imagem img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    height: 20%;
+    text-align: center;
+}
+
+
+/* Rodapé */
+
+footer {
+    margin: 5px 20px 5px 20px;
+    font-size: 10pt;
+}
